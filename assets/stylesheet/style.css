@@ -61,3 +61,74 @@ body{
     margin: 0 50px;
     padding: 0 25px;
 }
+.fab{
+	background-color: aliceblue;
+	color: rgba(8, 8, 8, 0.664);
+	padding: 8px;
+	border-radius: 50px;
+	margin: 0 auto;
+}
+header nav{
+	text-align: center;
+	padding: 10px 0;
+}
+.bg_img{
+	background-size:cover; 
+	height:600px;
+}
+.bar{
+display: flex;
+position: fixed;
+background-color: #fff;
+justify-content: space-between;
+width: 90%;
+align-items: center;
+}
+.sub-bar{
+	display: flex;	
+	align-items: center;
+	font-size: 0;
+}
+.bar a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding-right: 15px;
+	font-weight: 300;
+	color: rgba(8, 8, 8, 0.664);;
+}
+.bar .active{
+	color: chocolate;
+	border-top: 2px solid chocolate;
+}
+.logo{
+	width: 70px;
+}
+.hero-text{
+	width: 450px;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px;
+}
+.bar h4{
+	color: chocolate;
+	font-weight: 900;
+	font-size: 20px;
+}
+h1{
+	font-size: 38px;
+	padding-top: 210px;
+	padding-bottom: 35px;
+	text-decoration: underline solid #fff;
+}
+.hero-text h6{
+	padding: 20px ;
+}
+.btn{
+	border: chocolate;
+	color: #fff;
+	background-color: chocolate;
+	padding: 9px;
+}
