@@ -53,7 +53,7 @@ table {
 }
 body{
     font-weight: 400;
-    line-height: 1;
+    line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
 }
 .container{
@@ -73,7 +73,7 @@ header nav{
 	padding: 10px 0;
 }
 nav a:hover{
-	color: orange;
+	color: rgb(219, 89, 2);
 }
 .bg_img{
 	width: 1260px;
@@ -102,8 +102,8 @@ align-items: center;
 	color: rgba(8, 8, 8, 0.664);;
 }
 .bar .active{
-	color: chocolate;
-	border-top: 2px solid chocolate;
+	color: rgb(219, 89, 2);
+	border-top: 2px solid rgb(219, 89, 2);
 }
 .logo{
 	width: 70px;
@@ -117,7 +117,7 @@ align-items: center;
 	padding: 10px;
 }
 .bar h4{
-	color: chocolate;
+	color:rgb(219, 89, 2);
 	font-weight: 900;
 	font-size: 20px;
 }
@@ -132,10 +132,11 @@ h1{
 	padding: 20px ;
 }
 .btn{
-	border: chocolate;
+	border: rgb(219, 89, 2);
 	color: #fff;
-	background-color: chocolate;
+	background-color: rgb(219, 89, 2);
 	padding: 9px;
+	text-transform: uppercase;
 }
 .head{
 	text-decoration: none;
@@ -160,7 +161,8 @@ h5{
 .point{
 	display: flex;
 	font-weight: 900;
-	flex-direction: column;
+	padding: 5px;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
@@ -168,13 +170,10 @@ h5{
 	background-color: black;
 	border-radius: 30px;
 	width: 5px;
-	height: 5px;
+	height: 2vh;
+	margin: 0 auto;
 	padding: 10px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
+}	
 .service{
 	display: flex;
 }
@@ -182,7 +181,7 @@ h5{
 	display: flex;
 	padding: 10px;
 	margin: auto 0;
-	text-align: center;
+	text-align: center;	
 	height: 250px;
 }	
 .green{
@@ -190,7 +189,7 @@ h5{
 	width: 250px;
 }
 .orange{
-	background-color: orange;
+	background-color:orange;
 	width: 250px;
 }
 .blue{
@@ -200,6 +199,13 @@ h5{
 .lgreen{
 	background-color: rgb(24, 221, 6);
 	width: 250px;
+}
+.item i{
+	color: white;
+	font-size: 42px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .team{
 	display: flex;
@@ -220,24 +226,26 @@ h5{
 	flex-wrap: wrap;
 	padding: 10px;
 }
-.col{
-	padding: 10px;
-	width: 60%;
+.col p{
+	font-size: 12px;
+	width: 100%;
 }
 .col1{
 	width: 30%;
 }
-.block{
-	
+.block{	
 	padding: 5px;
-	padding-left: 230px;
+	padding-left: 100px;
 }
 .col1 h4{
-	background-color: orange;
+	background-color: rgb(219, 89, 2);
 	width: 200px;
 	height: 30px;
 	color: white;
 	vertical-align: center;
+}
+.design .head em{
+	font: italic;
 }
 .column{
 	display: flex;
@@ -245,19 +253,31 @@ h5{
 	width: 100%;
 }
 .map{
-	width: 1260px;
-	padding: 20px 0;
+	width: 1100px;
+	height: 400px;
+	padding-top: 20px;
 }
 .con{
-	width: 60%;
+	width: 100%;
 }
 .form{
 	width: 30%;
-	padding-left: 230px;
+	padding-left: 100px;
 }
 .contact{
 	display: flex;
+	padding-bottom: 30px;
 }
 form tr{
 	padding: 5px 0;
+}
+.con p{
+	font-size: 12px;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+}
+small{
+	font-size: 8px;
 }

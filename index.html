@@ -11,6 +11,7 @@
     <title>Checkpoint2</title>
 </head>
 <body>
+    <!-- Hero -->
     <header>
         <div class="bg_img" style="background-image: url('assets/media/banner.jpg');">
         <div class="container">          
@@ -20,6 +21,7 @@
             <a href="https://dribbble.com/"><i class="fab fa-dribbble"></i></a>
             <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
         </nav>
+        <div id="top"></div>        
         <div class="bar">
             <div class="sub-bar">
                 <div>
@@ -44,13 +46,16 @@
         </div>
     </div>
     </div>
-    <div class="points">
-        <div class="act">.</div>
-        <div class="act">.</div>
-        <div class="act">.</div>
-    </div>          
+    <div class="container">
+        <div class="points">
+            <div class="act">.</div>
+            <div class="act">.</div>
+            <div class="act">.</div>
+        </div>  
+    </div>            
     </header>
     <main>
+        <!-- Our Services -->
         <section class="container">
             <div class="head">
                 <h2>our services</h2>
@@ -71,6 +76,7 @@
                 </div>
             </div>
         </section>
+        <!-- Our Portfolio -->
         <section class="container">
             <div class="head">
                 <h2>our portfolio</h2>
@@ -103,6 +109,7 @@
                 </div>
             </div>
         </section>
+        <!-- Our Team -->
         <section class="container">
             <div class="head">
                 <h2>our team</h2>
@@ -123,16 +130,20 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <!-- Design Skills -->
+        <section class="design container">
             <div class="head">
-                <h2>design skills</h2>
-                <h5>we design first website for you</h5>
+                <em>
+                    <h2>design skills</h2>
+                    <h5>we design first website for you</h5>
+                </em>
             </div>
             <div class="column">
                 <div class="col">
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore mollitia vitae ipsum adipisci reiciendis nisi commodi, consequuntur accusantium, delectus iusto impedit beatae alias consequatur exercitationem officia praesentium officiis. Nobis, magnam?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis facere corrupti vitae. Exercitationem aspernatur voluptatum nemo, unde aut fugit omnis ipsa culpa, laudantium deleniti quas nisi quia id aperiam debitis?
                     </p>
+                    <br>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit libero est nam commodi illum ab nihil porro laborum delectus. Enim dolorum harum fugiat temporibus ea numquam? Nam exercitationem ut earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vero, necessitatibus quas nemo illo debitis totam in nam voluptatum vel soluta blanditiis sed temporibus aspernatur, consectetur voluptatibus doloremque, cumque voluptate!
                     </p>
@@ -153,25 +164,36 @@
                 </div>
             </div>            
         </section>
-        <section>
-            <div class="container">
-                <div class="head">
-                    <h2>Contact</h2>
-                    <h5>send a message to us</h5>
-                </div>                
-            </div>
+        <!-- contact -->
+        <section class="container">
+            <div class="head">
+                <h2>Contact</h2>
+                <h5>send a message to us</h5>
+            </div>                  
             <img class="map" src="assets/media/map.jpg" alt="Map">
-        <div class="contact container">
+        <div class="contact">
             <div class="con">
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae officia tempore perferendis dolore accusantium, optio exercitationem et illum sed doloribus animi? Obcaecati quas ipsa veritatis! Consectetur reprehenderit omnis atque distinctio!
                 </p>
+                <br>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nihil corporis voluptate sed ducimus quae officiis, aut quia porro veritatis tenetur minus architecto at consequuntur quod, reiciendis beatae quam veniam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, voluptatum. Fugiat nam accusantium voluptatum quidem exercitationem! Corporis explicabo consequuntur vel, laboriosam totam sed eos natus expedita ad, accusantium vitae. Illo.
                 </p>
+                <br>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta asperiores eaque, maiores commodi pariatur illo? Asperiores dicta cupiditate quia eligendi ipsa fugit a numquam? Recusandae officiis modi est tenetur possimus.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta asperiores eaque, maiores commodi pariatur illo? Asperiores dicta cupiditate quia eligendi ipsa fugit a numquam? Recusandae officiis <b>modi est tenetur possimus</b>.
                 </p>
+                <br>
+                <div>
+                    Phone: 300 020 2986
+                </div>
+                <div>
+                    Email: <b>info@companymail.com</b>
+                </div>
+                <div>
+                    Address: 2nd stage, Church Street, Bangalore.
+                </div>        
             </div>
             <div class="form">
                 <form>
@@ -189,7 +211,7 @@
                             <td><input type="text" placeholder="MESSAGE" name=""></td>
                         </tr>
                         <tr>
-                            <td><input type="button" placeholder="SEND MESSAGE" name=""></td>
+                            <td><button class="btn">SEND MESSAGE</button></td>
                         </tr>
                     </table>
                 </form>
@@ -197,8 +219,9 @@
         </div>        
         </section>
     </main>
-    <footer>
-
+    <footer class="container">
+        <small>CopyRights&copy;2021CompanyName</small>
+        <a href="#top"><button class="btn">back to top</button></a>
     </footer>    
 </body>
 </html>
