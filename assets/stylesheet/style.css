@@ -262,14 +262,16 @@ h5{
 }
 .form{
 	width: 30%;
-	padding-left: 100px;
+	padding-left: 30px;
 }
 .contact{
 	display: flex;
 	padding-bottom: 30px;
 }
-form tr{
-	padding: 5px 0;
+form tr input, textarea,form tr .btn{
+	padding: 5px 5%;
+	margin: 2% auto;
+	width: 220px;
 }
 .con p{
 	font-size: 12px;
