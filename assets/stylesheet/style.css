@@ -58,8 +58,14 @@ body{
 }
 .container{
     max-width: 1300px;
-    margin: 0 50px;
-    padding: 0 25px;
+    margin: 0 75px;
+    padding: 0px 25px;
+	padding-top: 80px;
+}
+.containers{
+    max-width: 1300px;
+    margin: 0 75px;
+    padding: 0px 25px;	
 }
 .fab{
 	background-color: aliceblue;
@@ -76,17 +82,17 @@ nav a:hover{
 	color: rgb(219, 89, 2);
 }
 .bg_img{
-	width: 1260px;
+	width: 100vw;
 	background-size:cover; 
 	height:600px;
 }
 .bar{
 display: flex;
-position: absolute;
 background-color: #fff;
 justify-content: space-between;
 width: 90%;
 align-items: center;
+position: sticky;
 }
 .sub-bar{
 	display: flex;	
@@ -99,11 +105,12 @@ align-items: center;
 	font-size: 18px;
 	padding-right: 15px;
 	font-weight: 300;
-	color: rgba(8, 8, 8, 0.664);;
+	color: rgba(8, 8, 8, 0.664);
 }
 .bar .active{
 	color: rgb(219, 89, 2);
 	border-top: 2px solid rgb(219, 89, 2);
+	width: 100%;
 }
 .logo{
 	width: 70px;
@@ -123,7 +130,7 @@ align-items: center;
 }
 h1{
 	font-size: 38px;
-	padding-top: 210px;
+	padding-top: 100px;
 	padding-bottom: 35px;
 	text-decoration: underline solid #fff;
 }
@@ -158,22 +165,21 @@ h5{
 	font-size: 16px;
 	font-weight: 200px;
 }
-.point{
+.points{
 	display: flex;
-	font-weight: 900;
+	width: 100px;
+	margin: 0 auto;
 	padding: 5px;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 }
 .act{
 	background-color: black;
 	border-radius: 30px;
-	width: 5px;
-	height: 2vh;
 	margin: 0 auto;
 	padding: 10px;
 }	
+.act1{
+	background-color: rgb(85, 81, 81);
+}
 .service{
 	display: flex;
 }
@@ -222,9 +228,10 @@ h5{
 	flex-wrap: wrap;
 }
 .img{
-	width: 270px;
+	width: 265px;
 	flex-wrap: wrap;
 	padding: 10px;
+	font-size: 0;
 }
 .col p{
 	font-size: 12px;
@@ -252,10 +259,10 @@ h5{
 	justify-content: center;
 	width: 100%;
 }
-.map{
+iframe{
 	width: 1100px;
 	height: 400px;
-	padding-top: 20px;
+	padding: 20px 0;
 }
 .con{
 	width: 100%;

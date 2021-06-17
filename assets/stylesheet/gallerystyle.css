@@ -60,11 +60,14 @@ aside{
     background-color: orangered;
     width:300px;
     height: 100vh;
-    position: relative;
+    position: fixed;
 }
 main{
     display: flex;
     width: 100%;
+}
+.media{
+    padding-left: 32%;
 }
 .gallery{
     display: flex;
@@ -89,7 +92,9 @@ img{
     justify-content: space-between;
 }
 .sub-bar1{
-    display: flex;   
+    display: flex; 
+    justify-content: space-between;  
+    
 }
 .sub-bar2{
     display: flex;
@@ -97,7 +102,8 @@ img{
 }
 .t-bar{
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    vertical-align: middle;    
 }
 h1{
     vertical-align: middle;
@@ -110,6 +116,7 @@ h4{
     font-weight: 800;
     color: black;
     padding: 20px 0;
+    padding-left: 65%;
     text-align: center;
 }
 h2{
