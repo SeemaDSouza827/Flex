@@ -233,16 +233,52 @@ h5{
 	padding: 10px;
 	font-size: 0;
 }
+.col{
+	width: 70%;
+	padding: 10px 0;
+	
+}
 .col p{
 	font-size: 12px;
 	width: 100%;
 }
 .col1{
 	width: 30%;
+	padding: 10px 0;
 }
 .block{	
+	background-color: white;
+	width: 100%;
+	display: flex;
+	padding-left: 20px;
+	padding: 2px;
+}
+.sub-block{	
+	color: white;	
+	background-color: rgb(219, 89, 2);
 	padding: 5px;
-	padding-left: 100px;
+	position: relative;
+}
+.grey{
+	 background-color:grey
+}
+.grey .p{
+	width: 10%;
+}
+.sub-block .p{
+	width: 90%;
+}
+.grey .h{
+	width: 20%;
+}
+.sub-block .h{
+	width: 80%;
+}
+.grey .d{
+	width: 30%;
+}
+.sub-block .d{
+	width: 70%;
 }
 .col1 h4{
 	background-color: rgb(219, 89, 2);
