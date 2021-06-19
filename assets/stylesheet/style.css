@@ -247,35 +247,25 @@ h5{
 	padding: 10px 0;
 }
 .block{	
-	background-color: white;
+	background-color:grey;
 	width: 100%;
-	display: flex;
 	padding-left: 20px;
 	padding: 2px;
+	position: relative;
 }
 .sub-block{	
 	color: white;	
 	background-color: rgb(219, 89, 2);
 	padding: 5px;
-	position: relative;
-}
-.grey{
-	 background-color:grey
-}
-.grey .p{
-	width: 10%;
+	height: 20px;
+	height: 25px;
+	position: absolute;
 }
 .sub-block .p{
 	width: 90%;
 }
-.grey .h{
-	width: 20%;
-}
 .sub-block .h{
 	width: 80%;
-}
-.grey .d{
-	width: 30%;
 }
 .sub-block .d{
 	width: 70%;
